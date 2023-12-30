@@ -27,7 +27,7 @@ The player competes against the computer, which makes its choice randomly.
 
 ## Setup
 
-
+To run this project, simply clone the repo and open `index.html` in a web browser. You can also view a live demo on CodePen: [Rock Paper Scissors - Fire Earth Water](https://codepen.io/alsokirua/pen/poYJGdE).
 
 ## How to Play
 
