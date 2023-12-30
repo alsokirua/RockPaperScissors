@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock Paper Scissors - Fire Earth Water</title>
+  <link href="style.css" rel="stylesheet">
+  <!-- Ensure you use the correct Font Awesome version -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="grid-container">
+  
+  <!-- Score Section -->
+  <div id="score-section">
+    <div>Player Score: <span id="player-score">0</span></div>
+    <div>Computer Score: <span id="computer-score">0</span></div>
+  </div>
+  
+  <!-- Player Choices -->
+  <div id="player-choices">
+    <button class="choice-button" id="fire-button" value="fire"><i class="fas fa-fire"></i> Fire</button>
+    <button class="choice-button" id="earth-button" value="earth"><i class="fas fa-leaf"></i> Earth</button>
+    <button class="choice-button" id="water-button" value="water"><i class="fas fa-tint"></i> Water</button>
+  </div>
+  
+  <!-- Result Output -->
+  <div id="result-output"></div>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>
